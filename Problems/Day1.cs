@@ -2,7 +2,7 @@ public static class Day1
 {
     public static void Solve()
     {
-        string text = System.IO.File.ReadAllText("./Day1Input.txt");
+        string text = System.IO.File.ReadAllText("./ProblemInput/Day1Input.txt");
 
         List<int> calories = new List<int>();
         using (StringReader reader = new StringReader(text))

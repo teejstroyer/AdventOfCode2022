@@ -15,7 +15,7 @@ public static class Day2
         int score = 0;
         int score2 = 0;
 
-        var text = System.IO.File.ReadAllText("./Day2Input.txt").Split('\n');
+        var text = System.IO.File.ReadAllText("./ProblemInput/Day2Input.txt").Split('\n');
 
         foreach (var line in text)
         {
