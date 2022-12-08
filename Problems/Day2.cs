@@ -6,10 +6,10 @@ public static class Day2
         //Rock","A","X" =>  1
         //Paper","B","Y" => 2
         //Scissors","C","Z" => 3
-        
+
         // 6 win
         // 3 Draw
-        
+
         //Part 2
         // X LOSE Y DRAW Z WIN
         int score = 0;

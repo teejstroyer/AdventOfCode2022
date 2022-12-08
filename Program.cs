@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-void PrintDivider (int problem) => Console.WriteLine("\nProblem #{0}\n"+new string('=', 40), problem);
+void PrintDivider(int problem) => Console.WriteLine("\nProblem #{0}\n" + new string('=', 40), problem);
 
 PrintDivider(1);
 Day1.Solve();

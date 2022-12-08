@@ -7,14 +7,14 @@ public static class Day4
             .Select(i => Array.ConvertAll(i.Split(new char[] { '-', ',' }, StringSplitOptions.RemoveEmptyEntries), int.Parse).ToArray())
             .ToArray();
 
-        int countContained=0;
-        int countOverlaps=0;
+        int countContained = 0;
+        int countOverlaps = 0;
         for (int i = 0; i < groups.Length; i++)
         {
-            if(groups[i][0] >= groups[i][2] && groups[i][1] <= groups[i][3] || groups[i][2] >= groups[i][0] && groups[i][3] <= groups[i][1])
-                countContained ++;
-            if(groups[i][0] <= groups[i][3] && groups[i][2] <= groups[i][1])
-                countOverlaps ++;
+            if (groups[i][0] >= groups[i][2] && groups[i][1] <= groups[i][3] || groups[i][2] >= groups[i][0] && groups[i][3] <= groups[i][1])
+                countContained++;
+            if (groups[i][0] <= groups[i][3] && groups[i][2] <= groups[i][1])
+                countOverlaps++;
         }
         Console.WriteLine(countContained);
         Console.WriteLine(countOverlaps);

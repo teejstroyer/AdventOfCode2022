@@ -23,7 +23,7 @@ public static class Day1
         calories.Sort();
         calories.Reverse();
         Console.WriteLine(calories[0]);
-        Console.WriteLine( calories.Take(3).Sum());
+        Console.WriteLine(calories.Take(3).Sum());
     }
 
 }
