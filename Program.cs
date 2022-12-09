@@ -12,3 +12,7 @@ PrintDivider(4);
 Day4.Solve();
 PrintDivider(5);
 Day5.Solve();
+PrintDivider(6);
+Day6.Solve();
+PrintDivider(7);
+Day7.Solve();
